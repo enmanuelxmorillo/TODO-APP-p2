@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Users",
+  "type": "object",
+  "properties": {
+    "uid": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "display_name": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "photo_url": {
+      "type": "string"
+    },
+    "birthday": {
+      "type": "string",
+      "description": "User birthday stored as a date/time value"
+    }
+  },
+  "required": [
+    "uid",
+    "email"
+  ]
+}
